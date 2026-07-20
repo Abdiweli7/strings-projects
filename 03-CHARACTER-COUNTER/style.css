@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh; 
+   background-color: rgb(156, 204, 108);
+}
+
+.container{
+   background-color: azure; 
+   margin: 10px;
+   padding: 20px;
+   border-radius: 5px;
+}
+h2{
+    font-size: 2rem;
+    color: rgb(218, 15, 15);
+    font-weight: bold;
+   margin-bottom: 20px;
+}
+.text-area{
+width: 300px;
+padding: 20px;
+resize: none;
+border-radius: 10px;
+border-color: 1px solid red;
+outline: none;
+}
+#result{
+  font-size: 20px;  
+}

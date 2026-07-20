@@ -41,4 +41,4 @@ function ValidateUsername(){
    display.style.color = "green";
 }
 
-buttonElem.addEventListener("click", ValidateUsername)
+UsernameInput.addEventListener("input", ValidateUsername)

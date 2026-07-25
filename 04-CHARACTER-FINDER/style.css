@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: lightseagreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.container{
+    width: 400px;
+    background-color: aliceblue;
+    padding: 10px 30px;
+    border-radius: 20px;
+  
+
+}
+.text-area{
+    width: 100%;
+    resize: none;
+    padding: 10px;
+    margin-top: 10px;
+
+}
+.named-container{
+    margin-top: 20px;
+   
+    
+}
+
+.named-container p{
+    margin: 10px;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+
+
+
